@@ -1,0 +1,3 @@
+{# vim: set ft=jinja: #}
+# ceph remote storag, added by salt
+UUID="{{ salt['disk.blkid']('/dev/vdb1')['/dev/vdb1']['UUID'] }}" /home ext4 defaults,errors=remount-ro 0 1
