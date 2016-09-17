@@ -1,10 +1,10 @@
 # saltstack-format-partition
-salt state, sample to format a partition under debian and add mountpoint
+A samble of salt state: to format a partition under debian Jessie and add mountpoint
 
 ## Usage
 
 ~~~
-salt 'minion' format-partition.install-additional-storage
+salt 'minion' state.apply format-partition.install-additional-storage
 ~~~
 
 
